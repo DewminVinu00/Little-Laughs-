@@ -1,0 +1,37 @@
+{
+  "name": "pusher-angular",
+  "version": "1.0.0",
+  "description": "Angular library for using Pusher",
+  "main": "lib/pusher-angular.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pusher/pusher-angular.git"
+  },
+  "keywords": [
+    "pusher",
+    "angular",
+    "websockets"
+  ],
+  "author": "Hamilton Chapman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pusher/pusher-angular/issues"
+  },
+  "homepage": "https://github.com/pusher/pusher-angular",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "^0.0.31",
+    "uglify-js": "^3.2.1"
+  }
+}
